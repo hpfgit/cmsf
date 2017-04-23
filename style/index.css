@@ -1,0 +1,115 @@
+@charset utf-8;
+body, h1, h2, h3, h4, p, form, ul, li, dl, dt, dd {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	width: 960px;
+	margin: 0 auto;
+	background: #ffffff;
+}
+a {
+	text-decoration:none;
+}
+ul, li, ol {
+	list-style:none;
+}
+#top {
+	height: 26px;
+	background: red;
+	margin: 0 0 10px 0;
+}
+#header {
+	height: 80px;
+	background: green;
+}
+#header h1 {
+	width: 250px;
+	height: 80px;
+	background: red;
+}
+#header h1 a {
+	height: 80px;
+	display: block;
+	text-indent: -9999px;
+}
+#nav {
+	height: 35px;
+	background: navy;
+}
+#nav ul li {
+	float:left;
+	width:100px;
+	text-align:center;
+	height:36px;
+	line-height:36px;
+}
+#nav ul li a {
+	color:#fff;
+}
+#search {
+	height: 35px;
+	background: maroon;
+	margin: 0 0 10px 0;
+}
+#user {
+	width: 270px;
+	height: 400px;
+	background: orange;
+	float: right;
+}
+#news {
+	width: 400px;
+	height: 400px;
+	background: blue;
+	float: right;
+	margin: 0 10px 0 0;
+}
+#pic {
+	width: 270px;
+	height: 195px;
+	background: green;
+	float: left;
+	margin: 0 0 10px 0;
+}
+#rec {
+	width: 270px;
+	height: 195px;
+	background: red;
+	float: left;
+	margin: 0 0 10px 0;
+}
+#sidebar-right {
+	width: 270px;
+	height: 835px;
+	background: red;
+	float: right;
+	margin: 10px 0 0 0;
+}
+#picnews {
+	width: 680px;
+	height: 200px;
+	background: yellow;
+	float: left;
+	margin: 0 0 10px 0;
+}
+#newslist {
+	width: 680px;
+	height: 625px;
+	background: blue;
+	float: left;
+	margin: 0 0 10px 0;
+}
+#link {
+	width: 960px;
+	height: 110px;
+	background: orange;
+	float: left;
+	margin: 0 0 10px 0;
+}
+#footer {
+	width: 960px;
+	height: 40px;
+	background: blue;
+	float: left;
+}
